@@ -33,7 +33,7 @@ for (let i = 0; i < args.length; i++) {
 	}
 }
 
-const SERVER_SCRIPT = './Server.js';
+const SERVER_SCRIPT = './Server/Server.js';
 const ARENA_DIR = './Arena';
 const RESULTS_DIR = './EvaluationResults';
 

@@ -15,7 +15,7 @@ const path = require('path');
 
 // Configuration
 const DEFAULT_PORT = 3011;
-const SERVER_SCRIPT = './Server.js';
+const SERVER_SCRIPT = './Server/Server.js';
 const ARENA_DIR = './Arena';
 const RESULTS_DIR = './TrainingData';
 const REPLAY_DIR = './TrainingData/Replays';
