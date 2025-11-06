@@ -1,0 +1,23 @@
+# Python requirements for Qwen3 finetuning
+
+# Core training libraries
+torch>=2.0.0
+transformers>=4.36.0
+datasets>=2.14.0
+accelerate>=0.25.0
+peft>=0.7.0
+trl>=0.7.0
+bitsandbytes>=0.41.0
+
+# Unsloth for efficient finetuning
+# Install with: pip install "unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git"
+
+# Optional but recommended
+xformers>=0.0.23
+wandb>=0.16.0  # For experiment tracking
+tensorboard>=2.15.0  # For monitoring
+
+# Utilities
+numpy>=1.24.0
+pandas>=2.0.0
+tqdm>=4.65.0
